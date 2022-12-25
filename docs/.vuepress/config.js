@@ -10,7 +10,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/images/logo.png',
     logoDark: '/images/logo.png', // 弄个黑底logo
-    repo: 'https://github.com/DHW-PCS/Book-of-DHW',
+    repo: 'https://github.com/Logic-Accepted/Book-of-DHW-vuepress',
     sidebarDepth: '0',
     editLink: false,
     colorMode: 'light',
