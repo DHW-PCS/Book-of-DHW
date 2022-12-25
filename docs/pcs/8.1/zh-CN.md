@@ -1,6 +1,6 @@
 # 🇨🇳 介绍（简体中文）
 
-![](images/image.png)
+![](</images/pic.png>)
 
 ## 在这个 <mark style="color:orange;">Minecraft 服务器</mark>中，<mark style="color:green;">全新世界</mark>的<mark style="color:blue;">唯一一条规则</mark>，就是……
 
