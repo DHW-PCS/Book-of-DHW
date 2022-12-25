@@ -4,7 +4,7 @@
 欢迎来到 Book of DHW！本空间主要用于记载DHW的规定。
 
 ## 简介
-Book of DHW 是 DHW 官方通过 GitBook 公开本组资讯与规定的网站。为了方便本组成员及 DHW Inf 玩家等相关人士编辑及使用本文档，本组已在 2022 年 12 月 9 日将该网站迁移到 GitHub。
+Book of DHW 曾是 DHW 官方通过 GitBook 公开本组资讯与规定的网站。为了方便本组成员及 DHW Inf 玩家等相关人士编辑及使用本文档，本组已在 2022 年 12 月 9 日将该网站迁移到 GitHub。本站是 Book of DHW 使用 VuePress 创建的测试页面。
 
 访问我们[在 GitHub 上的源](https://github.com/DHW-PCS/Book-of-DHW)！
 

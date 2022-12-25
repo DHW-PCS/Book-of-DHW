@@ -1,6 +1,6 @@
 # 欢迎
 
-欢迎来到 Book of DHW！。本页面由 vuepress 驱动。
+欢迎来到 Book of DHW！本页面由 vuepress 驱动。
 
 
 ## 版权声明
