@@ -1,5 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -7,15 +9,23 @@ export default defineUserConfig({
   description: 'DHW 官方通过 GitBook 公开本组资讯与规定的网站。',
   theme: defaultTheme({
     logo: '/images/logo.png',
-    logoDark: '', // 弄个黑底logo
+    logoDark: '/images/logo.png', // 弄个黑底logo
     repo: 'https://github.com/DHW-PCS/Book-of-DHW',
     sidebarDepth: '0',
     editLink: false,
+    colorMode: 'light',
+    contributors: false,
+    lastUpdated: false,
+    plugins: [
+      searchPlugin({
+        isSearchable: (page) => page.path !== '/',
+      }),
+      backToTopPlugin(),
+      
+    ],
     sidebar: [
       {
-
         text: 'DHW 规定',
-        //link: '/dhw-regulations/',
         children: [
           '/dhw-regulations/regulation-of-information.md',
           '/dhw-regulations/dhw.md',
@@ -27,7 +37,6 @@ export default defineUserConfig({
       },
       {
         text: 'INF 文档',
-        //link: '/inf-docs/',
         children: [
           '/inf-docs/inf-faqs.md',
           '/inf-docs/ai-setup.md',
