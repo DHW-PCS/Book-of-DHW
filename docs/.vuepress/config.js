@@ -1,12 +1,12 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
-import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'Book of DHW',
-  description: 'DHW 官方通过 GitBook 公开本组资讯与规定的网站。',
+  description: 'DHW 官方用于公开本组资讯与规定的网站。',
+  head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   theme: defaultTheme({
     logo: '/images/logo.png',
     logoDark: '/images/logo.png', // 弄个黑底logo
@@ -17,8 +17,27 @@ export default defineUserConfig({
     contributors: false,
     lastUpdated: false,
     plugins: [
-      searchPlugin({
-        isSearchable: (page) => page.path !== '/',
+      docsearchPlugin({
+        apiKey: '<API_KEY>',
+        indexName: '<INDEX_NAME>',
+        locales: {
+          '/': {
+            placeholder: 'Search Documentation',
+            translations: {
+              button: {
+                buttonText: 'Search Documentation',
+              },
+            },
+          },
+          '/zh/': {
+            placeholder: '搜索文档',
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+              },
+            },
+          },
+        },
       }),
       backToTopPlugin(),
       
