@@ -2,17 +2,19 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vuepress/client': 2.0.0-beta.59
+  '@vuepress/plugin-back-to-top': 2.0.0-beta.59
+  '@vuepress/plugin-search': 2.0.0-beta.59
   '@vuepress/theme-default': 2.0.0-beta.59
-  theme-default: ^4.0.0
   vue: ^3.2.45
   vuepress: 2.0.0-beta.59
 
 dependencies:
   '@vuepress/theme-default': 2.0.0-beta.59
-  theme-default: 4.0.0
 
 devDependencies:
   '@vuepress/client': 2.0.0-beta.59
+  '@vuepress/plugin-back-to-top': 2.0.0-beta.59
+  '@vuepress/plugin-search': 2.0.0-beta.59
   vue: 3.2.45
   vuepress: 2.0.0-beta.59_zuhh5cekyzsqox63zj3ccba2ny
 
@@ -616,6 +618,20 @@ packages:
       prismjs: 1.29.0
     transitivePeerDependencies:
       - supports-color
+
+  /@vuepress/plugin-search/2.0.0-beta.59:
+    resolution: {integrity: sha512-6r3RxvVMzNXrzTdtwjU8W4hvHInsetX4yk/FzZX1iUDBjmXh/bpYk6Tgr6BsdaK7yrrmfF/VumzHuVirLgAukg==}
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.59
+      '@vuepress/core': 2.0.0-beta.59
+      '@vuepress/shared': 2.0.0-beta.59
+      '@vuepress/utils': 2.0.0-beta.59
+      chokidar: 3.5.3
+      vue: 3.2.45
+      vue-router: 4.1.6_vue@3.2.45
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
 
   /@vuepress/plugin-theme-data/2.0.0-beta.59:
     resolution: {integrity: sha512-Nhf+VwnsXArcXxigaO6a3hyP2TY+80lM+rbBMjJcw6p7ZfD8DH1Wy8PMi08A5yWTBJYpofCs7e2LvzJ4LIyLvg==}
@@ -1406,11 +1422,6 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
     dev: true
-
-  /theme-default/4.0.0:
-    resolution: {integrity: sha512-AKmZNsCwkD0XCXAXUdqWq2LoKUyrRJ3VoTjAxQt2qADcWzU+nhgDaqGMJBtGqwX9pPPEV/inaEphnSsNVKMwgg==}
-    engines: {node: '>=4', npm: '>=2'}
-    dev: false
 
   /to-fast-properties/2.0.0:
     resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
