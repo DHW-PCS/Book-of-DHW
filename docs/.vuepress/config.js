@@ -24,6 +24,7 @@ export default defineUserConfig({
       
     ],
     sidebar: [
+          '/readme.md',
       {
         text: 'DHW 规定',
         children: [
