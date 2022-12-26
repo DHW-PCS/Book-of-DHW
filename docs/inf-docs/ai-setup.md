@@ -6,9 +6,9 @@ description: 如果你从未用过第三方登录，且准备使用 DHW Passport
 
 Inf 支持使用多种验证方式登入服务器，本文将讲述如何使用 DHW Passport 来进行登录。
 
-{% hint style="info" %}
+::: tip 提示
 你首先得是 DHW 成员或 DHW Inf 玩家才能使用该系统登入服务器。在通过审核后你将获得一个一次性的邀请码，它将用于注册你的服务台账户。DHW Inf 审核QQ群：[873305382](https://jq.qq.com/?\_wv=1027\&k=CLcpAiWK)
-{% endhint %}
+:::
 
 ### 1 注册
 
