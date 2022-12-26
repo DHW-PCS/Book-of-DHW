@@ -11,10 +11,22 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/images/logo.png',
     logoDark: '/images/logo.png', // 弄个黑底logo
-    repo: 'https://github.com/Logic-Accepted/Book-of-DHW-vuepress',
+    repo: 'https://github.com/DHW-PCS/Book-of-DHW-vuepress/',
     sidebarDepth: '0',
     editLink: false,
     colorMode: 'light',
+    locales: {
+      '/': {
+        lang: 'en-US',
+        title: '',
+        description: '',
+      },
+      '/zh/': {
+        lang: 'zh-CN',
+        title: 'Book-of-DHW',
+        description: 'DHW 官方用于公开本组资讯与规定的网站。',
+      },
+    }, 
     contributors: false,
     lastUpdated: false,
     plugins: [
@@ -22,10 +34,25 @@ export default defineUserConfig({
         apiKey: 'd9c5176210e119499f3f205b633a19c2',
         appId: '77GC4FUYYC',
         indexName: 'bookvercel',
-        placeholder: '请输入关键字',
+        locales: {
+          '/': {
+            placeholder: 'Search Documentation',
+            translations: {
+              button: {
+                buttonText: 'Search Documentation',
+              },
+            },
+          },
+          '/zh/': {
+            placeholder: '搜索文档',
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+              },
+            },
+          },
+        },
       }),
-      backToTopPlugin(),
-      
     ],
     sidebar: [
           '/readme.md',
