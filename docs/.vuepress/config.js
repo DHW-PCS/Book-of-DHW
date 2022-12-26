@@ -22,24 +22,7 @@ export default defineUserConfig({
         apiKey: 'd9c5176210e119499f3f205b633a19c2',
         appId: '77GC4FUYYC',
         indexName: 'bookvercel',
-        locales: {
-          '/': {
-            placeholder: 'Search Documentation',
-            translations: {
-              button: {
-                buttonText: 'Search Documentation',
-              },
-            },
-          },
-          '/zh/': {
-            placeholder: '搜索文档',
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-              },
-            },
-          },
-        },
+        placeholder: '请输入关键字',
       }),
       backToTopPlugin(),
       
