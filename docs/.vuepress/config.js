@@ -1,13 +1,20 @@
-import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
-export default defineUserConfig({
+export default({
   lang: 'zh-CN',
   title: 'Book of DHW',
   description: 'DHW 官方用于公开本组资讯与规定的网站。',
   head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
+  plugins: [
+    docsearchPlugin({
+      apiKey: 'd9c5176210e119499f3f205b633a19c2',
+      appId: '77GC4FUYYC',
+      indexName: 'bookvercel',
+    }),
+    backToTopPlugin(),
+  ],
   theme: defaultTheme({
     logo: '/images/logo.png',
     logoDark: '/images/logo.png', // 弄个黑底logo
@@ -15,45 +22,8 @@ export default defineUserConfig({
     sidebarDepth: '0',
     editLink: false,
     colorMode: 'light',
-    locales: {
-      '/': {
-        lang: 'en-US',
-        title: '',
-        description: '',
-      },
-      '/zh/': {
-        lang: 'zh-CN',
-        title: 'Book-of-DHW',
-        description: 'DHW 官方用于公开本组资讯与规定的网站。',
-      },
-    }, 
     contributors: false,
     lastUpdated: false,
-    plugins: [
-      docsearchPlugin({
-        apiKey: 'd9c5176210e119499f3f205b633a19c2',
-        appId: '77GC4FUYYC',
-        indexName: 'bookvercel',
-        locales: {
-          '/': {
-            placeholder: 'Search Documentation',
-            translations: {
-              button: {
-                buttonText: 'Search Documentation',
-              },
-            },
-          },
-          '/zh/': {
-            placeholder: '搜索文档',
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-              },
-            },
-          },
-        },
-      }),
-    ],
     sidebar: [
           '/readme.md',
       {
