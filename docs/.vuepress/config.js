@@ -19,8 +19,9 @@ export default defineUserConfig({
     lastUpdated: false,
     plugins: [
       docsearchPlugin({
-        apiKey: '<API_KEY>',
-        indexName: '<INDEX_NAME>',
+        apiKey: 'd9c5176210e119499f3f205b633a19c2',
+        appId: '77GC4FUYYC',
+        indexName: 'bookvercel',
         locales: {
           '/': {
             placeholder: 'Search Documentation',
