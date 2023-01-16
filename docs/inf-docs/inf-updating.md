@@ -23,4 +23,4 @@ description: 创建日期：2020.04.09
 
 ## 捐助列表
 
-[https://stapx.chuhelan.com/lib](https://stapx.chuhelan.com/lib/)
+[https://lib.stapxs.cn/infupd/](https://lib.stapxs.cn/infupd/)
