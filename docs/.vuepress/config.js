@@ -62,7 +62,7 @@ export default({
     logo: '/images/logo.png',
     logoDark: '/images/logo.png', // 弄个黑底logo
     repo: 'https://github.com/DHW-PCS/Book-of-DHW/',
-    sidebarDepth: 0,
+    sidebarDepth: '0',
     editLink: false,
     colorMode: 'light',
     contributors: false,
