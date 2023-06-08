@@ -90,6 +90,7 @@ export default({
       //'/inf-docs/updates-to-inf.md',
       //'/inf-docs/inf-updating.md',
       '/inf-docs/downloads.md',
+      '/inf-docs/malware-beware.md',
       '/inf-docs/inf-1.16-quick-state.md',
       '/inf-docs/inf-1.18-quick-state.md',
     ],
