@@ -8,7 +8,7 @@ export default({
   description: 'DHW 官方用于公开本组资讯与规定的网站。',
   head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   plugins: [
-    docsearchPlugin({
+    /*docsearchPlugin({
       apiKey: 'd9c5176210e119499f3f205b633a19c2',
       appId: '77GC4FUYYC',
       indexName: 'bookvercel',
@@ -55,7 +55,7 @@ export default({
           },
         },
       }
-    }),
+    }),*/
     backToTopPlugin(),
   ],
   theme: defaultTheme({
