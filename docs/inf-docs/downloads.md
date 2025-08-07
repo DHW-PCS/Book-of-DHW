@@ -7,13 +7,13 @@
 
 ## Java 运行时
 
-DHW Inf 所使用的 Minecraft 要求 Java 17 或更新版本。
+DHW Inf 所使用的 Minecraft 1.21.7 要求 Java 21 或更新版本。
 
 [Adoptium Temurin JDK 21](https://adoptium.net/temurin/releases/?version=21)
 
 [Zulu OpenJDK 21](https://www.azul.com/downloads/?version=java-21-lts&package=jdk#zulu)
 
-macOS 用户如需使用 HMCL 启动器，请使用 [Zulu OpenJDK 21 JDK FX](https://www.azul.com/downloads/?version=java-21-lts&os=macos&package=jdk-fx#zulu)。
+macOS 用户如需使用 HMCL 启动器，请使用 [Zulu OpenJDK 21 JDK-FX](https://www.azul.com/downloads/?version=java-21-lts&os=macos&package=jdk-fx#zulu)。
 
 
 ## 启动器
