@@ -1,3 +1,3 @@
 # This is just a joke
 
-haha ai
+[haha ai](./../inf-docs/ai-setup.md)

@@ -27,7 +27,7 @@ export default({
       '/dhw-regulations/dhw.md',
       '/dhw-regulations/standards-used-by-dhw.md',
       '/dhw-regulations/diplomacy.md',
-      '/dhw-regulations/usage-rules.md',
+      '/dhw-regulations/system-requirements.md',
       '/dhw-regulations/group-chat-management.md',
       '/dhw-regulations/chat-programs.md',
     ],
