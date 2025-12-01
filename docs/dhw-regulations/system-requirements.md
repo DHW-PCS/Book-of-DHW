@@ -8,6 +8,10 @@ description: 一版：2018.10.21 二版：2020.01.20 三版：2023.7.30 四版�
 
 版本：第四版（20251201-hotfix）
 
+::: tip 自助分析表单
+现在可借助[这个网页](https://underwear.dhwpcs.org)（[备用链接](https://assets.cdn.dhwpcs.eu.org/underwear.html)）分析目标系统是否符合要求。
+:::
+
 ## 基本要求
 
 要保证能正常使用所有 DHW 服务，系统必须满足以下**所有**最基本的要求：
