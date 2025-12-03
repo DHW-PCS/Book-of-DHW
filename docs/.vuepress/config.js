@@ -46,6 +46,7 @@ export default({
       '/inf-docs/inf-1.16-quick-state.md',
       '/inf-docs/inf-1.18-quick-state.md',
       '/inf-docs/inf-1.20-update.md',
+      '/inf-docs/inf-updates.md'
     ],
   },
   {
